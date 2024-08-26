@@ -1,0 +1,106 @@
+<!--this edit connects the boards and home pages together
+
+Prof. Ross
+rcopeland85692@uat.edu
+
+23may2024
+
+20jun2024
+the assignment Assignment 7.1 Event Driven Programming needs us to add two buttons, 
+start to move the picture around the page, and a stop, to stop movement
+
+08aug2024
+The assignment 12.1 has us activate a sound on our webpage
+I will have a picture of a car and when clicked, it will play this sound https://soundbible.com/2188-Formula-1-Racing.html 
+
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Professor Ross' Webpage</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="code.js"></script>
+    <style>
+        th, td {
+            border: 1px solid blue;   
+        }   
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <h1>Welcome To Prof Ross' Webpage</h1>
+    </header>
+    <nav>
+        <h2>Navigation</h2>
+        <h3><a href="./index.html">Home</a><br>
+            <a href="./boards.html"> Boards</a><br>
+            <a href="./game.html">Game page</a><br>
+            <a href="./strings.html">Input Validation page</a>
+        </h3>
+        <h3>
+    </nav>
+    <p>
+        I am teaching CSC 102. The Class is Summer 2024. My Teacher is Professor Prater.
+    </p>
+    <marquee id="myMarquee" direction="right" scrollamount="50"><img id="memeImage" src="memeroni.webp"></marquee>
+    </h1>
+    <br>
+    <br>
+    <center>
+        <button id="startButton" onclick="startFun();" class="ButtonStrt">Start</button>
+        <button id="stopButton" onclick="stopFun();" class="ButtonStp">Stop</button>
+    </center>
+    <br>
+    <br>
+    <!--We will put a table here-->
+    <H2>Favorite Old School Cartoon Series</H2>
+    <table style="width: 60%;" id="table">
+        <colgroup>
+            <col span="1" style="width: 15%;">
+            <col span="1" style="width: 70%;">
+            <col span="1" style="width: 15%;">
+        </colgroup>
+        <tr>
+            <th>Ranking</th>
+            <th>Name</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>Heathcliff</th>
+            <th>1984-1987</th>
+        </tr>
+        <tr>
+            <th>2</th>
+            <th>Sherlock Hound</th>
+            <th>1984-1985</th>
+        </tr>
+        <tr>
+            <th>3</th>
+            <th>Rugrats</th>
+            <th>1991-2003</th>
+        </tr>
+        <tr>
+            <th>4</th>
+            <th>Rocket Power</th>
+            <th>1998-2004</th>  
+        </tr>
+    </table>
+    <br>
+    <br>
+    <img src="race.jpeg" onclick="raceSounds();"><br>
+    <img src="partyout.jpg" onclick="partysounds();"><br>
+    <footer>
+        Prof. Ross<br>
+        University of Advancing Technology<br>
+        2625 W Baseline Rd, <br>
+        Tempe, AZ 85283 <br>
+        (800) 658-5744
+    </footer>
+</body>
+
+</html>

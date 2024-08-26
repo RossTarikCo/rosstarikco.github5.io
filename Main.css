@@ -1,0 +1,75 @@
+Body {
+	background-color: forestgreen;
+	color: blue;
+}
+
+nav {
+	height: 6000px;
+	width: 200px;
+	float: left;
+	padding: 5px;
+	line-height: 30px;
+}
+
+footer {
+	text-align: center;
+	
+}
+
+#table{
+	text-align: center;
+	border: 1px solid blue;
+}
+#memeImage {
+	margin-right: 200px;
+}
+
+
+header {
+	text-align: center;
+}
+
+.ButtonStrt {
+	background-color: white;
+	width: 200px;
+	height: 30px;
+	border-radius: 15px;
+	border-color: lightgreen;
+}
+
+.ButtonStp {
+	background-color: white;
+	width: 200px;
+	height: 30px;
+	border-radius: 15px;
+	border-color: lightgreen;
+}
+
+#palinTitle {
+		text-align: center;
+		margin-top: 0px;
+    margin-bottom: 50px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 3rem;
+	letter-spacing: 0.15rem;
+	text-transform: uppercase;
+	color: antiquewhite;
+	text-shadow: -4px 4px #ef3550,
+				 -8px 8px #ff601d,
+				 -12px 12px #ff6321,
+				 -16px 16px #ff8c5b,
+				 -20px 20px #ffa80f,
+				 -24px 24px #edda00,
+				 -28px 28px #ddfffe,
+				 -32px 32px #0077db,
+				 -36px 36px #0060db;
+}
+
+#palinBody {
+	padding-left: 350px;
+}
+
+#palinStatus{
+	font-style: italic;
+}

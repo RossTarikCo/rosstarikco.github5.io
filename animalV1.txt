@@ -1,0 +1,18 @@
+class Animal	
+	//properties
+	numLegs short
+	class String
+	color String
+	hasTail boolean
+	
+	//methods
+	eat() 
+	reproduce() 
+	die() 
+	
+	class Zebra sublass of Animal
+		numStripes byte
+		
+		trot()
+		gallup() 
+		

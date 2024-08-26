@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Professor Ross' Webpage</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome To Prof Ross' Webpage</h1>
+    </header>    
+     <nav>
+		<h2>Navigation</h2> 
+        <h3><a href="./index.html">Home</a><br>
+            <a href="./boards.html"> Boards</a><br>
+            <a href="./game.html">Game page</a>
+            <a href="./strings.html">Input Validation page</a></h3>
+     </nav>
+    <p>
+         ARTIFICIAL INTELLIGENCE DEGREE OBJECTIVES<br><br>
+1. Develop, analyze and integrate artificial intelligence application and IoT systems.<br><br>
+2. Demonstrate skills to design and create natural language processing systems.<br><br>
+3. Demonstrate designing and creating machine learning systems using best practices and patterns.<br><br>
+4. Demonstrate new and original data in deep learning by consuming big data with original algorithms.<br><br>
+5. Demonstrate software development skills using more than one programming language, development environment,
+platform, and source control system.<br><br>
+6. Describe, develop, analyze, integrate data structures, databases, and database management systems<br><br>
+    </p>
+    <footer>
+        Prof. Ross<br>
+        University of Advancing Technology<br> 
+        2625 W Baseline Rd, <br>
+        Tempe, AZ 85283 <br>
+        (800) 658-5744 		
+	</footer>
+</body>
+
+
+</html>
